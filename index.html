@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Temperature Conversion</title>
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <label for="celsius"><strong>Celsius</strong></label>
+            <input type="number" id="celsius" oninput= "celToFarandKel()">
+        </div>
+        <div class="container">
+            <label for="fahrenheit"><strong>Fahrenheit</strong></label>
+            <input type="number" id="fahrenheit" oninput = "farToCelandKel()">
+        </div>
+        <div class="Kelvin">
+            <label for="Kelvin"><strong>&nbsp Kelvin</strong></label>
+            <input type="number" id="Kelvin" oninput= "KelToCelandfah()">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
